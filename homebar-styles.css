@@ -1,0 +1,68 @@
+.homebarHolder {
+    position: sticky;
+  }
+  .homeBar{
+    background-color:#E7D6FF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 0.5em;
+  }
+  .homeBarItem {
+    float: left;
+    padding: 0;
+    background-color: #E7D6FF;
+  }
+  .homeBarItem:hover{
+    background-color: #FFE5FF;
+  }
+  .homebarItem a , .fallbtn {
+    display: inline-block;
+    padding: 0.75vw;
+    color: #584C68;
+  }
+  .nofall > a {
+    display: inline-block;
+    padding: 0.75vw;
+    color: #584C68;
+  }
+  .falldown {
+    display: inline-block;
+  }
+  .falldownContent {
+    display: none;
+    position:  absolute;
+    z-index: 1;
+  }
+  .falldownContent a{
+    display: block;
+    text-align: left;
+    padding: 0.75vw;
+    color: #584C68;
+  }
+  .falldown:hover .falldownContent {
+    display: block;
+    background-color: #FFE5FF;
+  }
+  .falldownContent > a:hover{
+    background-color: #edd5ed;
+  }
+  .searchBarHome {
+    float: right;
+    padding: none;
+    width: 25vw;
+    align-content: center;
+  }
+  .searchBarHomeStyle {
+    border: none;
+    padding:none;
+    align-self: center;
+  }
+  .searchImage {
+    align-self: center;
+    width: 1.6vw;
+  }
+  .smallText {
+    font-size: 0.5em;
+  }
