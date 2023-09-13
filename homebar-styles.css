@@ -2,7 +2,7 @@
     position: sticky;
   }
   .homeBar{
-    background-color:#E7D6FF;
+    background-color:#101010;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,20 +12,20 @@
   .homeBarItem {
     float: left;
     padding: 0;
-    background-color: #E7D6FF;
+    background-color: #101010;
   }
   .homeBarItem:hover{
-    background-color: #FFE5FF;
+    background-color: #2e2e2e;
   }
   .homebarItem a , .fallbtn {
     display: inline-block;
     padding: 0.75vw;
-    color: #584C68;
+    color: aliceblue;
   }
   .nofall > a {
     display: inline-block;
     padding: 0.75vw;
-    color: #584C68;
+    color: aliceblue;
   }
   .falldown {
     display: inline-block;
@@ -39,14 +39,14 @@
     display: block;
     text-align: left;
     padding: 0.75vw;
-    color: #584C68;
+    color: aliceblue;
   }
   .falldown:hover .falldownContent {
     display: block;
-    background-color: #FFE5FF;
+    background-color: #ff0000;
   }
   .falldownContent > a:hover{
-    background-color: #edd5ed;
+    background-color: #00ff00;
   }
   .searchBarHome {
     float: right;
