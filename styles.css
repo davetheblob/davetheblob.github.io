@@ -2,4 +2,9 @@ body{
     background-color: #101010;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.flush-divide{
+    margin: 0;
 }
