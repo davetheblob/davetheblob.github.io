@@ -8,3 +8,11 @@ body{
 .flush-divide{
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: aliceblue;
+}
