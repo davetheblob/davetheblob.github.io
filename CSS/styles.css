@@ -1,8 +1,18 @@
 body{
-    background-color: #101010;
+    background-color: #2e2e2e;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .flush-divide{
@@ -15,4 +25,42 @@ a {
 
 a:visited {
     color: aliceblue;
+}
+
+.big-title {
+    font-size:800%;
+    max-width: 50%;
+    margin-top: 30;
+    animation: fadeInLeft ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#headshot{
+    border-radius: 50%;
+    width: 40%;
+    animation: fadeInLeft ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#title-table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td>img{
+    width: 100%;
 }

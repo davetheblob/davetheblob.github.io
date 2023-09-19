@@ -1,5 +1,8 @@
 .homebarHolder {
-    position: sticky;
+    position: fixed;
+    opacity: 100% ;
+    z-index: 20;
+    width: 100%;
   }
   .homeBar{
     background-color:#101010;
